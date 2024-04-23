@@ -5,7 +5,7 @@ import pytest
 from config.configuration import Configuration
 from metrics.aws.aws_open_telemetry import AwsOpenTelemetry
 from metrics.azure.azure_open_telemetry import AzureOpenTelemetry
-from rag.metrics.open_telemetry_factory import get_open_telemetry, InvalidEnvironmentException
+from backend.rag import get_open_telemetry, InvalidEnvironmentException
 
 
 def test_configuration_returns_azure_environment():

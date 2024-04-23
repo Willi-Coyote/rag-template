@@ -4,16 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fastapi = "*"
-uvicorn = "*"
+confz = "*"
+azure-storage-blob = "*"
 azure-monitor-opentelemetry = "*"
-python-dotenv = "*"
-pylint = "*"
-jwt = "*"
+langchain = "*"
 
 [dev-packages]
-pytest = "*"
-coverage = "*"
 
 [requires]
 python_version = "3.11"
